@@ -35,6 +35,7 @@ function CalculateTransitiveClosure() {
       }
     }
   }
+  Output.innerHTML = "";
   for (const element of result) {
     for (let j = 0; j < result.length; j++) {
       Output.innerHTML += element[j];
